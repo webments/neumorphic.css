@@ -12,6 +12,7 @@
   },
   "author": "The Webments Authors",
   "license": "LGPL-2.1",
+  "style": "./neumorphic.css",
   "bugs": {
     "url": "https://github.com/webments/webments-neumorphic/issues"
   },
