@@ -5,6 +5,16 @@
 <h3 align="center">by Webments</h3>
 <p align="center">Neumorphic is a futuristic design metaphor and language.</p>
 
+![npm](https://img.shields.io/npm/v/webments-neumorphic)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/webments-neumorphic)
+![npm](https://img.shields.io/npm/dt/webments-neumorphic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/webments/neumorphic.css)
+![GitHub](https://img.shields.io/github/license/webments/neumorphic.css)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/webments/neumorphic.css)
+![GitHub contributors](https://img.shields.io/github/contributors/webments/neumorphic.css)
+![GitHub stars](https://img.shields.io/github/stars/webments/neumorphic.css?style=social)
+![GitHub forks](https://img.shields.io/github/forks/webments/neumorphic.css?style=social)
+
 ## Installation
 
 ### NPM
