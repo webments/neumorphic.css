@@ -415,6 +415,29 @@ button:disabled {
   transition: 0.4s;
 }
 
+.short-code {
+  background-color: var(--button-background);
+  box-shadow: var(--button-box-shadow);
+  background-color: #00000000;
+  color: var(--text-color);
+  border-radius: 8px;
+  padding-top:5px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:5px;
+}
+
+.long-code {
+  background-color: var(--button-background);
+  box-shadow: var(--button-box-shadow);
+  background-color: #00000000;
+  color: var(--text-color);
+  border-radius: 8px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+}
+
 /*radio*/
 
 @media (prefers-color-scheme: dark) {
