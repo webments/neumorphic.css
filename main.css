@@ -79,9 +79,11 @@ select {
   margin-top: 50px;
   margin-bottom: -30px;
 }
+
 .elementtitle {
   margin-bottom: 10px;
 }
+
 .buttondiv1 {
   margin-bottom: 20px;
 }
@@ -95,6 +97,7 @@ select {
   padding-right: 35px;
   cursor: pointer;
 }
+
 .belowimg img {
   opacity: 50%;
   transition: 0.2s;

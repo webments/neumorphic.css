@@ -445,10 +445,10 @@ button:disabled {
   background-color: #00000000;
   color: var(--text-color);
   border-radius: 8px;
-  padding-top:5px;
-  padding-left:10px;
-  padding-right:10px;
-  padding-bottom:5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 .long-code {
@@ -457,9 +457,9 @@ button:disabled {
   background-color: #00000000;
   color: var(--text-color);
   border-radius: 8px;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-left:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 /*radio*/
@@ -477,8 +477,8 @@ button:disabled {
     --button-background: linear-gradient(145deg, #323232, #3b3b3b);
     --button-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
     --button-box-shadow-hover: 20px 20px 40px #2c2c2c,
-    -20px -20px 40px #424242;
-  --button-box-shadow-active: 7px 7px 14px #2c2c2c,
-    -5px -5px 10px #424242;
+      -20px -20px 40px #424242;
+    --button-box-shadow-active: 7px 7px 14px #2c2c2c,
+      -5px -5px 10px #424242;
   }
 }
