@@ -429,5 +429,9 @@ button:disabled {
     --card-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
     --button-background: linear-gradient(145deg, #323232, #3b3b3b);
     --button-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
+    --button-box-shadow-hover: 20px 20px 40px #2c2c2c,
+    -20px -20px 40px #424242;
+  --button-box-shadow-active: 7px 7px 14px #2c2c2c,
+    -5px -5px 10px #424242;
   }
 }
