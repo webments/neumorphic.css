@@ -27,7 +27,7 @@ npm i webments-neumorphic
 ### YARN
 
 ```
-
+yarn add webments-neumorphic
 ```
 
 ## Usage
