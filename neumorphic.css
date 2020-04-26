@@ -27,6 +27,25 @@ found in the LICENSE file.
   --light2: #dbdbdb;
   --light3: #b4b4b4;
   --light4: #a1a1a1;
+  --card-background: #e7e7e7;
+  --card-box-shadow: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
+  --button-background: #e7e7e7;
+  --button-box-shadow: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
+  --text-color: black;
+}
+
+.container {
+  background: var(--card-background);
+  box-shadow: var(--card-box-shadow);
+}
+
+button {
+  border-width: 0px;
+  background-color: var(--button-background);
+  box-shadow: var(--button-box-shadow);
+  background-color: #00000000;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .orange {
@@ -186,8 +205,8 @@ button,
 .button,
 a.bt {
   border-style: solid;
-  color: white;
-  border-width: 2px;
+  color: var(--text-color);
+  border-width: 0px;
   outline: 0;
   padding: 0.55rem 1rem;
   background: none;
@@ -270,4 +289,19 @@ a.bt:hover {
 
 .bt-green:hover {
   background-color: var(--green);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background: #373737;
+  }
+
+  :root {
+      --text-color: white;
+      --black-white-icon: white;
+      --card-background: linear-gradient(145deg, #3b3b3b, #323232);
+      --card-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
+      --button-background: linear-gradient(145deg, #323232, #3b3b3b);
+      --button-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
+  }
 }
