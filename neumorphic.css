@@ -201,19 +201,23 @@ a.bt {
   transition: .4s;
 }
 
-button:hover,
-.button:hover,
-a.bt:hover {
+button:hover:enabled,
+.button:hover:enabled,
+a.bt:hover:enabled {
   box-shadow: var(--button-box-shadow-hover);
   transition: .4s;
 }
 
-button:active,
-.button:active,
-a.bt:active {
+button:active:enabled,
+.button:active:enabled,
+a.bt:active:enabled {
   box-shadow: var(--button-box-shadow-active);
   transition: .4s;
 
+}
+
+button:disabled {
+  color: gray;
 }
 
 .bt-orange {
