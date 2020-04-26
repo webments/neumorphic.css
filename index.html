@@ -11,26 +11,68 @@ found in the LICENSE file.
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="main.css" />
-  <link rel="stylesheet" type="text/css" href="neumorphic.css" />
-  <title>Webments | Neumorphic</title>
+  <link rel="stylesheet" type="text/css" href="simplistika.css" />
+  <link rel="shortcut icon" href="icon.png" />
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <title>Webments | Simplistika</title>
 </head>
 
 <body>
   <div class="container">
-    <h3 class="title">Webments</h3>
-    <h1>neumorphic.css</h1>
-
+    <div class="titleandsubtitlearea">
+      <h3 class="title">Webments</h3>
+      <h1>simplistika.css</h1>
+      <div class="repobuttons">
+        <a class="github-button" href="https://github.com/webments/simplistika.css"
+          data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-icon="octicon-star"
+          aria-label="Star webments/simplistika.css on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/webments/simplistika.css/fork"
+          data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large"
+          data-icon="octicon-repo-forked" aria-label="Fork webments/simplistika.css on GitHub">Fork</a>
+        <a class="github-button" href="https://github.com/webments/simplistika.css/subscription"
+          data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-icon="octicon-eye"
+          aria-label="Watch webments/simplistika.css on GitHub">Watch</a>
+      </div>
+    </div>
     <div class="elementsdiv">
       <div class="elementdiv">
         <h2>Buttons</h2>
-        <button class="bt bt-orange">Button</button>
 
-        <h3>Disabled</h3>
-        <button disabled>Button</button>
+        <h3>Regular</h3>
+        <button class="bt br-orange">Button</button>
+        <button class="bt br-blue">Button</button>
+        <button class="bt br-light-blue">Button</button>
+        <button class="bt br-red">Button</button>
+        <button class="bt br-pink">Button</button>
+        <button class="bt br-purple">Button</button>
+        <button class="bt br-yellow">Button</button>
+        <button class="bt br-green">Button</button>
+
+        <h4>Disabled</h4>
+        <button class="bt" disabled>Button</button>
+
+        <h3>Mini</h3>
+        <button class="mini-bt br-orange">Button</button>
+        <button class="mini-bt br-blue">Button</button>
+        <button class="mini-bt br-light-blue">Button</button>
+        <button class="mini-bt br-red">Button</button>
+        <button class="mini-bt br-pink">Button</button>
+        <button class="mini-bt br-purple">Button</button>
+        <button class="mini-bt br-yellow">Button</button>
+        <button class="mini-bt br-green">Button</button>
+
+        <h4>Disabled</h4>
+        <button class="mini-bt" disabled>Button</button>
+
       </div>
 
       <div class="elementdiv">
         <h2>Text and Typography</h2>
+
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
 
         <h1>H1</h1>
         <h2>H2</h2>
@@ -38,6 +80,7 @@ found in the LICENSE file.
         <h4>H4</h4>
         <h5>H5</h5>
         <h6>H6</h6>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum asperiores commodi maiores esse
           molestiae temporibus facere nam vero at veniam, minima placeat fuga, voluptates velit possimus dolor.
           Blanditiis, doloremque?</p>
@@ -45,19 +88,19 @@ found in the LICENSE file.
 
       <div class="elementdiv">
         <h2>Text fields</h2>
-        <input></input>
+        <input class="inp-text"></input>
 
         <h3>Disabled</h3>
-        <input disabled></input>
+        <input class="inp-text" disabled></input>
       </div>
 
       <div class="elementdiv">
         <h2>Checkboxes</h2>
 
-        <input type="checkbox">Checkbox</input>
+        <input type="checkbox" class="inp-chb">Checkbox</input>
 
         <h3>Disabled</h3>
-        <input disabled type="checkbox">Checkbox</input>
+        <input type="checkbox" class="inp-chb" disabled>Checkbox</input>
       </div>
 
       <div class="elementdiv">
@@ -82,7 +125,56 @@ found in the LICENSE file.
       <div class="elementdiv">
         <h2>Dropdowns</h2>
 
-        <select id="dropdown">
+        <select id="dropdown" class="slc slc-dark br-orange">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-blue">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-light-blue">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-red">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-pink">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-purple">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-yellow">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+        <select id="dropdown" class="slc slc-dark br-green">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
           <option value="3">Option 3</option>
@@ -100,6 +192,7 @@ found in the LICENSE file.
       </div>
     </div>
   </div>
+  <center><a class="belowimg" href="https://github.com/Webments" target="_blank"><img src="footer.png""></img></a> <a class="belowimg" href="https://github.com/Mercode" target="_blank"><img src="icon.png"></img></a></center>
 </body>
 
 </html>
