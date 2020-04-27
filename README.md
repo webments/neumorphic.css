@@ -59,7 +59,7 @@ npm i webments-neumorphic
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.min.css" />
   </head>
   <body></body>
 </html>
@@ -80,7 +80,7 @@ yarn add webments-neumorphic
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.min.css" />
   </head>
   <body></body>
 </html>
@@ -94,11 +94,11 @@ yarn add webments-neumorphic
 
 #### Latest (stable channel, automatically updated)
 ```
-https://unpkg.com/webments-neumorphic@latest/dist/css/neumorphic.css
+https://unpkg.com/webments-neumorphic@latest/dist/css/neumorphic.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.css
+https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.min.css
 ```
 
 > If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
@@ -109,7 +109,7 @@ https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.css
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-neumorphic/dist/css/neumorphic.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-neumorphic/dist/css/neumorphic.min.css" />
   </head>
   <body></body>
 </html>
