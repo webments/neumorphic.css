@@ -98,7 +98,7 @@ https://unpkg.com/webments-neumorphic@latest/dist/css/neumorphic.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-neumorphic@0.2.1/dist/css/neumorphic.css
+https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.css
 ```
 
 > If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
