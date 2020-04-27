@@ -23,7 +23,7 @@ jobs:
        - uses: actions/checkout@v2
 
        - name: Auto Minify
-         uses: nizarmah/auto-minify
+         uses: nizarmah/auto-minify@v1.6
 
        # Auto commits minified files to the repository
        # Ignore it if you don't want to commit the files to the repository 
