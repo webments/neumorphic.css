@@ -26,16 +26,15 @@ found in the LICENSE file.
   --light3: #b4b4b4;
   --light4: #a1a1a1;
   --element-background: #e7e7e7;
-  --card-box-shadow: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
-  --button-box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2), -6px -6px 4px rgba(255, 255, 255, 0.5);
-  --button-box-shadow-hover: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
-  --button-box-shadow-active: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
+  --box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2), -6px -6px 4px rgba(255, 255, 255, 0.5);
+  --box-shadow-hover: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
+  --box-shadow-active: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
   --text-color: black;
 }
 
 .container {
   background: var(--element-background);
-  box-shadow: var(--card-box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .orange {
@@ -171,7 +170,7 @@ button, .button, .bt {
   border-width: 0px;
   color: var(--text-color);
   background-color: var(--element-background);
-  box-shadow: var(--button-box-shadow);
+  box-shadow: var(--box-shadow);
   margin-right: 20px;
   margin-bottom: 20px;
   border-radius: 8px;   
@@ -190,14 +189,14 @@ button, .button, .bt {
 button:hover:enabled,
 .button:hover:enabled,
 .bt:hover:enabled {
-  box-shadow: var(--button-box-shadow-hover);
+  box-shadow: var(--box-shadow-hover);
   transition: box-shadow 0.4s;
 }
 
 button:active:enabled,
 .button:active:enabled,
 .bt:active:enabled {
-  box-shadow: var(--button-box-shadow-active);
+  box-shadow: var(--box-shadow-active);
   transition: box-shadow 0.4s;
 
 }
@@ -425,9 +424,11 @@ button:disabled {
   transition: 0.4s;
 }
 
+/*misc*/
+
 .short-code {
   background-color: var(--element-background);
-  box-shadow: var(--button-box-shadow);
+  box-shadow: var(--box-shadow);
   background-color: #00000000;
   color: var(--text-color);
   border-radius: 8px;
@@ -439,7 +440,7 @@ button:disabled {
 
 .long-code {
   background-color: var(--element-background);
-  box-shadow: var(--button-box-shadow);
+  box-shadow: var(--box-shadow);
   background-color: #00000000;
   color: var(--text-color);
   border-radius: 8px;
@@ -448,7 +449,7 @@ button:disabled {
   padding-left: 20px;
 }
 
-/*radio*/
+/*dark mode*/
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -459,9 +460,8 @@ button:disabled {
     --text-color: white;
     --black-white-icon: white;
     --element-background: linear-gradient(145deg, #3b3b3b, #323232);
-    --card-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
-    --button-box-shadow: 6px 6px 4px 0 rgba(44, 44, 44, 0.5), -6px -6px 4px 0 rgba(66, 66, 66, 0.5);
-    --button-box-shadow-hover: -6px -6px 4px 0 rgba(44, 44, 44, 0.2), 6px 6px 4px 0 rgba(66, 66, 66, 0.5);
-    --button-box-shadow-active: -4px -4px 4px 0 rgba(44, 44, 44, 0.2), 4px 4px 4px 0 rgba(66, 66, 66, 0.5);
+    --box-shadow: 6px 6px 4px 0 rgba(44, 44, 44, 0.5), -6px -6px 4px 0 rgba(66, 66, 66, 0.5);
+    --box-shadow-hover: -6px -6px 4px 0 rgba(44, 44, 44, 0.2), 6px 6px 4px 0 rgba(66, 66, 66, 0.5);
+    --box-shadow-active: -4px -4px 4px 0 rgba(44, 44, 44, 0.2), 4px 4px 4px 0 rgba(66, 66, 66, 0.5);
   }
 }
