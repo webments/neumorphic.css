@@ -34,9 +34,6 @@ yarn add webments-neumorphic
 ```
 https://unpkg.com/webments-neumorphic/neumorphic.css
 ```
-```
-https://cdn.jsdelivr.net/npm/webments-neumorphic/neumorphic.css
-```
 
 ## Usage
 
