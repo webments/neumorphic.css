@@ -25,19 +25,16 @@ found in the LICENSE file.
   --light2: #dbdbdb;
   --light3: #b4b4b4;
   --light4: #a1a1a1;
-  --card-background: #e7e7e7;
+  --element-background: #e7e7e7;
   --card-box-shadow: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
-  --button-background: #e7e7e7;
-  --button-box-shadow: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
-  --button-box-shadow-hover: 20px 20px 40px #a6a6a6,
-    -20px -20px 40px #ffffff;
-  --button-box-shadow-active: 7px 7px 14px #dbdbdb,
-    -5px -5px 10px #ffffff;
+  --button-box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2), -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+  --button-box-shadow-hover: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  --button-box-shadow-active: inset 4px 4px 7px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 7px 0 rgba(255, 255, 255, 0.5);
   --text-color: black;
 }
 
 .container {
-  background: var(--card-background);
+  background: var(--element-background);
   box-shadow: var(--card-box-shadow);
 }
 
@@ -170,54 +167,42 @@ blockquote,
 
 /*buttons*/
 
-button {
+button, .button, .bt {
   border-width: 0px;
-  background-color: var(--button-background);
+  color: var(--text-color);
+  background-color: var(--element-background);
   box-shadow: var(--button-box-shadow);
-  background-color: #00000000;
   margin-right: 20px;
   margin-bottom: 20px;
   transition: .4s;
-}
-
-button,
-.button,
-a.bt {
-  border-style: solid;
-  color: var(--text-color);
-  border-width: 0px;
-  outline: 0;
-  padding: 0.55rem 1rem;
-  background: none;
-  border-radius: 8px;
-  text-align: center;
-  cursor: pointer;
-  font-weight: bold;
+  border-radius: 8px;   
+  text-align: center;   
+  cursor: pointer;      
+  font-weight: bold;    
   text-decoration: none;
-  padding-top: 15px;
+  padding-top: 15px;   
   padding-bottom: 15px;
   font-size: 1rem;
-  width: 170px;
-  transition: .4s;
+  width: 170px;       
 }
 
 button:hover:enabled,
 .button:hover:enabled,
-a.bt:hover:enabled {
+.bt:hover:enabled {
   box-shadow: var(--button-box-shadow-hover);
   transition: .4s;
 }
 
 button:active:enabled,
 .button:active:enabled,
-a.bt:active:enabled {
+.bt:active:enabled {
   box-shadow: var(--button-box-shadow-active);
   transition: .4s;
 
 }
 
 button:disabled {
-  color: gray;
+  color: var(--dark4);
 }
 
 .bt-orange {
@@ -440,7 +425,7 @@ button:disabled {
 }
 
 .short-code {
-  background-color: var(--button-background);
+  background-color: var(--element-background);
   box-shadow: var(--button-box-shadow);
   background-color: #00000000;
   color: var(--text-color);
@@ -452,7 +437,7 @@ button:disabled {
 }
 
 .long-code {
-  background-color: var(--button-background);
+  background-color: var(--element-background);
   box-shadow: var(--button-box-shadow);
   background-color: #00000000;
   color: var(--text-color);
@@ -472,13 +457,10 @@ button:disabled {
   :root {
     --text-color: white;
     --black-white-icon: white;
-    --card-background: linear-gradient(145deg, #3b3b3b, #323232);
+    --element-background: linear-gradient(145deg, #3b3b3b, #323232);
     --card-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
-    --button-background: linear-gradient(145deg, #323232, #3b3b3b);
-    --button-box-shadow: 9px 9px 18px #2c2c2c, -9px -9px 18px #424242;
-    --button-box-shadow-hover: 20px 20px 40px #2c2c2c,
-      -20px -20px 40px #424242;
-    --button-box-shadow-active: 7px 7px 14px #2c2c2c,
-      -5px -5px 10px #424242;
+    --button-box-shadow: 15px 15px 20px 0 rgba(44, 44, 44, 0.2), -15px -15px 20px 0 rgba(66, 66, 66, 0.5);
+    --button-box-shadow-hover: inset 12px 12px 20px 0 rgba(44, 44, 44, 0.2), inset -12px -12px 20px 0 rgba(66, 66, 66, 0.5);
+    --button-box-shadow-active: inset 4px 4px 7px 0 rgba(44, 44, 44, 0.2), inset -4px -4px 7px 0 rgba(66, 66, 66, 0.5);
   }
 }
