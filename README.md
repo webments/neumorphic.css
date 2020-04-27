@@ -4,7 +4,7 @@
 
 <h3 align="center">by Webments</h3>
 <p align="center">Neumorphic is a futuristic design metaphor and language.</p>
-<p align="center">Warning: Work in Progress, do NOT use.</p>
+<h4 align="center">Warning: Work in Progress, do NOT use.</h4>
 
 [![npm](https://img.shields.io/npm/v/webments-neumorphic)](https://www.npmjs.com/package/webments-neumorphic)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/webments-neumorphic)](https://www.npmjs.com/package/webments-neumorphic)
