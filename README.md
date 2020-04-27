@@ -30,6 +30,14 @@ npm i webments-neumorphic
 yarn add webments-neumorphic
 ```
 
+### CDN
+```
+https://unpkg.com/webments-neumorphic/neumorphic.css
+```
+```
+https://cdn.jsdelivr.net/npm/webments-neumorphic/neumorphic.css
+```
+
 ## Usage
 
 After installing with your favorite method, you can start using the library using the components from the preview page, index.html (same class names are a must per CSS declaration).
