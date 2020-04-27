@@ -1,6 +1,6 @@
 {
   "name": "webments-neumorphic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Webments Neumorphic design library.",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webments/paper.css.git"
+    "url": "git+https://github.com/webments/neumorphic.css.git"
   },
   "author": "The Webments Authors",
   "license": "LGPL-2.1",
-  "style": "./neumorphic.css",
+  "style": "./dist/css/neumorphic.css",
   "bugs": {
-    "url": "https://github.com/webments/paper.css/issues"
+    "url": "https://github.com/webments/neumorphic.css/issues"
   },
-  "homepage": "https://github.com/webments/paper.css#readme"
+  "homepage": "https://github.com/webments/neumorphic.css#readme"
 }
