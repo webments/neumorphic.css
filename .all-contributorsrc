@@ -15,6 +15,16 @@
         "design",
         "doc"
       ]
+    },
+    {
+      "login": "baranonen",
+      "name": "Baran Önen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40770499?v=4",
+      "profile": "http://baranonen.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
