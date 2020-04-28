@@ -1,6 +1,6 @@
 <p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <h1 align="center">neumorphic.css</h1>
 </p>
@@ -167,6 +167,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.ardacebi.com"><img src="https://avatars3.githubusercontent.com/u/17576065?v=4" width="100px;" alt=""/><br /><sub><b>Arda Çebi</b></sub></a><br /><a href="https://github.com/Webments/neumorphic.css/commits?author=ardacebi" title="Code">💻</a> <a href="#design-ardacebi" title="Design">🎨</a> <a href="https://github.com/Webments/neumorphic.css/commits?author=ardacebi" title="Documentation">📖</a></td>
     <td align="center"><a href="http://baranonen.com"><img src="https://avatars1.githubusercontent.com/u/40770499?v=4" width="100px;" alt=""/><br /><sub><b>Baran Önen</b></sub></a><br /><a href="https://github.com/Webments/neumorphic.css/commits?author=baranonen" title="Code">💻</a> <a href="#design-baranonen" title="Design">🎨</a></td>
+    <td align="center"><a href="http://mercode.org"><img src="https://avatars1.githubusercontent.com/u/40173707?v=4" width="100px;" alt=""/><br /><sub><b>Tan A.</b></sub></a><br /><a href="https://github.com/Webments/neumorphic.css/commits?author=yutyo" title="Code">💻</a> <a href="#design-yutyo" title="Design">🎨</a></td>
   </tr>
 </table>
 
