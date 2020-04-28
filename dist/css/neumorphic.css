@@ -171,7 +171,6 @@ button, .button, .bt {
   color: var(--text-color);
   background-color: var(--element-background);
   box-shadow: var(--box-shadow);
-  margin-right: 20px;
   margin-bottom: 20px;
   border-radius: 8px;   
   text-align: center;   
@@ -182,7 +181,8 @@ button, .button, .bt {
   padding-top: 15px;   
   padding-bottom: 15px;
   font-size: 1rem;
-  width: 170px;
+  padding-left:40px;
+  padding-right:40px;
   transition: box-shadow 0.4s;
 }
 
@@ -203,70 +203,6 @@ button:active:enabled,
 
 button:disabled {
   color: var(--dark4);
-}
-
-.bt-orange {
-  border-color: var(--orange);
-}
-
-.bt-blue {
-  border-color: var(--blue);
-}
-
-.bt-light-blue {
-  border-color: var(--light-blue);
-}
-
-.bt-red {
-  border-color: var(--red);
-}
-
-.bt-pink {
-  border-color: var(--pink);
-}
-
-.bt-purple {
-  border-color: var(--purple);
-}
-
-.bt-yellow {
-  border-color: var(--yellow);
-}
-
-.bt-green {
-  border-color: var(--green);
-}
-
-.bt-orange:hover {
-  background-color: var(--orange);
-}
-
-.bt-blue:hover {
-  background-color: var(--blue);
-}
-
-.bt-light-blue:hover {
-  background-color: var(--light-blue);
-}
-
-.bt-red:hover {
-  background-color: var(--red);
-}
-
-.bt-pink:hover {
-  background-color: var(--pink);
-}
-
-.bt-purple:hover {
-  background-color: var(--purple);
-}
-
-.bt-yellow:hover {
-  background-color: var(--yellow);
-}
-
-.bt-green:hover {
-  background-color: var(--green);
 }
 
 /*checkbox*/
