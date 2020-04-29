@@ -26,9 +26,9 @@ found in the LICENSE file.
   --light3: #b4b4b4;
   --light4: #a1a1a1;
   --element-background: #e7e7e7;
-  --box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2), -6px -6px 4px rgba(255, 255, 255, 0.5);
-  --box-shadow-hover: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
-  --box-shadow-active: inset -6px -6px 4px rgba(0, 0, 0, 0.2), inset 6px 6px 4px rgba(255, 255, 255, 0.5);
+  --box-shadow: 7px 7px 18px #b9b9b9, -7px -7px 18px #ffffff;
+  --box-shadow-hover: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
+  --box-shadow-active: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
   --text-color: black;
 }
 
@@ -396,8 +396,8 @@ button:disabled {
     --text-color: white;
     --black-white-icon: white;
     --element-background: linear-gradient(145deg, #3b3b3b, #323232);
-    --box-shadow: 6px 6px 4px 0 rgba(44, 44, 44, 0.5), -6px -6px 4px 0 rgba(66, 66, 66, 0.5);
-    --box-shadow-hover: -6px -6px 4px 0 rgba(44, 44, 44, 0.2), 6px 6px 4px 0 rgba(66, 66, 66, 0.5);
-    --box-shadow-active: -4px -4px 4px 0 rgba(44, 44, 44, 0.2), 4px 4px 4px 0 rgba(66, 66, 66, 0.5);
+    --box-shadow: 7px 7px 18px #2c2c2c, -7px -7px 18px #424242;
+    --box-shadow-hover: -9px -9px 18px #2c2c2c, 9px 9px 18px #424242;
+    --box-shadow-active: -9px -9px 18px #2c2c2c, 9px 9px 18px #424242;
   }
 }
