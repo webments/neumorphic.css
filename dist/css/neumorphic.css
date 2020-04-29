@@ -30,6 +30,7 @@ found in the LICENSE file.
   --box-shadow-hover: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
   --box-shadow-active: 9px 9px 18px #b9b9b9, -9px -9px 18px #ffffff;
   --text-color: black;
+  --monospace-font: 'Source Code Pro', monospace;
 }
 
 .container {
@@ -372,6 +373,7 @@ button:disabled {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
+  font-family: var(--monospace-font);
 }
 
 .long-code {
@@ -383,6 +385,11 @@ button:disabled {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  font-family: var(--monospace-font);
+}
+
+code {
+  font-family: var(--monospace-font);
 }
 
 /*dark mode*/
