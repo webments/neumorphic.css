@@ -103,10 +103,12 @@ https://unpkg.com/webments-neumorphic@latest/dist/css/neumorphic.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.min.css
+https://unpkg.com/webments-neumorphic@[latest_version]/dist/css/paper.min.css
 ```
 
-> If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
+> Make sure to replace latest_version to the latest available version [from the npm package manager](https://www.npmjs.com/package/webments-neumorphic) (without the brackets!)
+
+e.g. `https://unpkg.com/webments-neumorphic@0.1.0/dist/css/paper.min.css` (version number not up to date, shown as example)
 
 2. Import the CDN from your head area in your HTML file
 
