@@ -115,30 +115,50 @@ found in the LICENSE file.
       <div class="elementdiv">
         <h2>Checkboxes</h2>
 
-        <label class="conatiner">Checkbox
+        <label class="conatiner">One
           <input type="checkbox" checked="checked">
           <span class="checkmark"></span>
         </label>
 
-        <label class="conatiner">Checkbox
+        <label class="conatiner">Two
           <input type="checkbox">
           <span class="checkmark"></span>
         </label>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;label class="conatiner">One
+    &lt;input type="checkbox" checked="checked">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+  
+  &lt;label class="conatiner">Two
+    &lt;input type="checkbox">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+        </code></pre>
         <h4>Disabled</h4>
 
-        <label class="conatiner">Checkbox (disabled)
+        <label class="conatiner">One
           <input disabled type="checkbox">
           <span class="checkmark"></span>
         </label>
 
-        <label class="conatiner">Checkbox (disabled)
+        <label class="conatiner">Two
           <input disabled type="checkbox">
           <span class="checkmark"></span>
         </label>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;label class="conatiner">One
+    &lt;input disabled type="checkbox" checked="checked">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+        
+  &lt;label class="conatiner">Two
+    &lt;input disabled type="checkbox">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+        </code></pre>
       </div>
 
       <div class="elementdiv">
@@ -154,21 +174,41 @@ found in the LICENSE file.
           <span class="checkmarkradio"></span>
         </label>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;label class="radiocontainer">One
+    &lt;input type="radio" checked="checked" name="radio">
+    &lt;span class="checkmarkradio">&lt;/span&gt;
+  &lt;/label&gt;
+
+  &lt;label class="radiocontainer">Two
+    &lt;input type="checkbox">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+        </code></pre>
 
         <h4>Disabled</h4>
 
         <label class="radiocontainer">One
-          <input type="radio" name="radio" disabled>
+          <input disabled type="radio" name="radio">
           <span class="checkmarkradio"></span>
         </label>
 
         <label class="radiocontainer">Two
-          <input type="radio" name="radio" disabled>
+          <input disabled type="radio" name="radio">
           <span class="checkmarkradio"></span>
         </label>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;label class="radiocontainer">One
+    &lt;input disabled type="radio" checked="checked" name="radio">
+    &lt;span class="checkmarkradio">&lt;/span&gt;
+  &lt;/label&gt;
+
+  &lt;label class="radiocontainer">Two
+    &lt;input disabled type="checkbox">
+    &lt;span class="checkmark">&lt;/span&gt;
+  &lt;/label&gt;
+        </code></pre>
       </div>
 
       <div class="elementdiv">
@@ -177,12 +217,16 @@ found in the LICENSE file.
         <h4>Short code snippet</h4>
         <code class="short-code light3">code</code>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;code class="short-code light3">code&lt;/code&gt;
+        </code></pre>
 
         <h4>Full-length code block</h4>
         <pre class="long-code light3"><code>code</code></pre>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;pre class="long-code light3">&lt;code>code&lt;/code&gt;&lt;/pre&gt;
+        </code></pre>
 
       </div>
 
@@ -196,7 +240,14 @@ found in the LICENSE file.
           <option value="4">Option 4</option>
         </select>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;select id="dropdown" class="slc slc-dark br-orange">
+    &lt;option value="1">Option 1&lt;/option&gt;
+    &lt;option value="2">Option 2&lt;/option&gt;
+    &lt;option value="3">Option 3&lt;/option&gt;
+    &lt;option value="4">Option 4&lt;/option&gt;
+  &lt;/select&gt;
+        </code></pre>
 
         <h4>Disabled</h4>
 
@@ -207,7 +258,14 @@ found in the LICENSE file.
           <option value="4">Option 4</option>
         </select>
 
-        <pre class="long-code light3"><code></code></pre>
+        <pre class="long-code light3"><code>
+  &lt;select disabled id="dropdowndisabled">
+     &lt;option value="1">Option 1&lt;/option&gt;
+     &lt;option value="2">Option 2&lt;/option&gt;
+     &lt;option value="3">Option 3&lt;/option&gt;
+     &lt;option value="4">Option 4&lt;/option&gt;
+   &lt;/select&gt;
+        </code></pre>
       </div>
     </div>
   </div>
