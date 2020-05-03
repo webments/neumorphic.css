@@ -11,8 +11,8 @@ found in the LICENSE file.
 }
 
 @font-face {
-  font-family: Jetbrains;
-  src: url(assets/fonts/JetBrainsMono-Regular.ttf);
+  font-family: Source Code Pro;
+  src: url(assets/fonts/SourceCodePro-Regular.ttf);
 }
 
 body {
@@ -282,7 +282,7 @@ img {
 
 code,
 pre {
-  font-family: 'Jetbrains' !important;
+  font-family: 'Source Code Pro' !important;
 }
 
 .learnmore {
