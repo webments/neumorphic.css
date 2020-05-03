@@ -13,14 +13,8 @@
     <a aria-label="npm bundle size" href="https://www.npmjs.com/package/webments-neumorphic">
     <img src="https://img.shields.io/bundlephobia/minzip/webments-neumorphic" alt="">
   </a>
-  <a aria-label="github releases" href="https://github.com/Webments/neumorphic.css/releases">
-    <img src="https://img.shields.io/github/v/release/webments/neumorphic.css" alt="">
-  </a>
     <a aria-label="npm downloads" href="https://www.npmjs.com/package/webments-neumorphic">
     <img src="https://img.shields.io/npm/dt/webments-neumorphic" alt="">
-  </a>
-    <a aria-label="license" href="https://github.com/Webments/neumorphic.css/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/webments/neumorphic.css" alt="">
   </a>
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
     <a aria-label="All Contributors" href="#contributors">
@@ -30,11 +24,14 @@
     <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
+   <a aria-label="license" href="https://github.com/Webments/neumorphic.css/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/webments/neumorphic.css" alt="">
+  </a>
 </p>
 
 neumorphic.css is a lightweight, responsive and modern CSS framework.
 
-- Lightweight (~x gzipped), blazing fast.
+- Lightweight (~1.51kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
 
@@ -49,7 +46,7 @@ neumorphic.css is a lightweight, responsive and modern CSS framework.
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-neumorphic.css is available via either npm (preferred), Yarn, or a CDN.
+neumorphic.css is available via either NPM (preferred), Yarn, or a CDN.
 
 ### NPM
 
@@ -73,7 +70,7 @@ npm i webments-neumorphic
 
 ### Yarn
 
-1. Obtain the package via yarn
+1. Obtain the package via Yarn
 
 ```shell
 yarn add webments-neumorphic
@@ -103,10 +100,12 @@ https://unpkg.com/webments-neumorphic@latest/dist/css/neumorphic.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-neumorphic@0.2.2/dist/css/neumorphic.min.css
+https://unpkg.com/webments-neumorphic@[latest_version]/dist/css/paper.min.css
 ```
 
-> If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
+> Make sure to replace latest_version to the latest available version [from the npm package manager](https://www.npmjs.com/package/webments-neumorphic) (without the brackets!)
+
+e.g. `https://unpkg.com/webments-neumorphic@0.1.0/dist/css/paper.min.css` (version number not up to date, shown as example)
 
 2. Import the CDN from your head area in your HTML file
 
