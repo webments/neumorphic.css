@@ -29,8 +29,9 @@
   </a>
 </p>
 
-neumorphic.css is a lightweight, responsive and modern CSS framework.
+neumorphic.css is a single-file, lightweight, responsive and modern CSS framework.
 
+- Incredibly KISS.
 - Lightweight (~1.51kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
@@ -46,7 +47,34 @@ neumorphic.css is a lightweight, responsive and modern CSS framework.
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-neumorphic.css is available via either NPM (preferred), Yarn, or a CDN.
+neumorphic.css is available via either direct installation, NPM, Yarn, or a CDN.
+
+
+### KISSest Installation
+
+1. Clone the file wherever you want via wget or curl
+
+```shell
+wget https://raw.githubusercontent.com/Webments/neumorphic.css/development/neumorphic.min.css
+```
+
+or
+
+```shell
+curl -o simplistika.css "https://raw.githubusercontent.com/Webments/neumorphic.css/development/neumorphic.min.css"
+```
+
+2. Insert the line below to your head area in your HTML file
+
+```html
+<!-- index.html (that is just an example)-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="neumorphic-min.css" />
+  </head>
+  <body></body>
+</html>
+```
 
 ### NPM
 
@@ -58,7 +86,7 @@ npm i webments-neumorphic
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.min.css" />
@@ -79,7 +107,7 @@ yarn add webments-neumorphic
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-neumorphic/dist/css/neumorphic.min.css" />
@@ -110,7 +138,7 @@ e.g. `https://unpkg.com/webments-neumorphic@0.1.0/dist/css/paper.min.css` (versi
 2. Import the CDN from your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-neumorphic/dist/css/neumorphic.min.css" />
